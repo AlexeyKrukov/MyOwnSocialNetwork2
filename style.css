@@ -1,0 +1,174 @@
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	background: url(siniy_goluboy_cvet_fon_more_stena_volna_1680x1050.jpg);
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 143px;
+	background: #FFE680;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 430 540 270px;
+	width: 50px;
+	height: 100px;
+	background: white;
+	margin-left: 250px;
+	}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -90%;
+	background: #B5E3FF;
+	height: 640px;
+	position: absolute;
+	top: 151;
+	right: 882;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	background: #BFF08E;
+	margin-top: 0%;
+}
+.registration{
+	white-space: pre-wrap;
+}
+
+.mralexey
+{
+	/*margin-left: 160px;*/
+	position: absolute;
+	bottom: 665;
+	right: 300;
+}
+
+.Menu
+{
+	float: left;
+	width: 250px;
+	height: 100px;
+	background:#BFF08E;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+}
+
+.Menu:hover
+{
+	color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+}
+
+#first
+{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.content-registration
+{
+	margin-top: 10px;
+}
+
+.text-registration
+{
+	position: relative;
+	right: 320;
+	bottom: 40;
+}
+
+.text-enter
+{
+	position: relative;
+	right: 480;
+	bottom: 40;
+}
+.form
+{
+	position: absolute;
+	top: 270;
+	left: 420;
+}
+
+.submit
+{
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+}
+
+.MessageBlock
+{
+	position: absolute;
+	border: 1px solid yellow;
+	background: red;
+	padding: 5px;
+	color: white;
+	width: 200px;
+	margin-left: 400px;
+	margin-top: 260px;
+}
+
+.captcha
+{
+	position: relative;
+	top: 10;
+}
+a
+{
+text-decoration: none;
+
+}
+.exit
+{
+	position: relative;
+	left: 850;
+	background:#BFF08E;
+	padding: 50px;
+	width: 50px;
+	height: 43px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.exit:hover
+{
+	color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+}
